@@ -42,6 +42,7 @@ header {
 img {
   width: 189px;
   height: 140px;
+  border-radius: 50%
 }
 
 h1 {
@@ -49,7 +50,7 @@ h1 {
 }
 
 .photo {
-  padding-left: 200px
+  padding-left: 150px
 }
 
 .contact {
