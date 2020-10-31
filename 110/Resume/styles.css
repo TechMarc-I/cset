@@ -11,12 +11,34 @@ body {
   font-family: sans-serif;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 .parallax {
   background: url('backyard.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   margin: 2%;
   height: 300px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.about > h3 {
+  text-align: center;
 }
 
 p{
